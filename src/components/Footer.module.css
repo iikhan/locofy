@@ -1,0 +1,96 @@
+.support {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.aircover,
+.cencellationOptions,
+.combatingDiscrimination,
+.helpCentre,
+.reportNeighbourhoodConcern,
+.support,
+.supportingPeopleWith {
+  position: relative;
+}
+.supportParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+  gap: var(--gap-sm);
+}
+.hosting {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.communityForum,
+.coverForHosts,
+.hosting,
+.hostingResources,
+.hostingResponsibly,
+.localHome {
+  position: relative;
+}
+.hostingParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+  gap: var(--gap-sm);
+}
+.localhost {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.careers,
+.giftCards,
+.investres,
+.localhost,
+.newFeatures,
+.newsroom {
+  position: relative;
+}
+.localhostParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+  gap: var(--gap-sm);
+}
+.footer,
+.footerInner,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.footer,
+.footerInner {
+  flex-wrap: wrap;
+}
+.footerInner {
+  width: 1280px;
+  justify-content: flex-start;
+  max-width: 1280px;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--light-bg);
+  border-top: 1px solid var(--light-grey-border);
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-11xl) var(--padding-21xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
